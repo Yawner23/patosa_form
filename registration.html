@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+    <form action="registration.html">
+        <h1>Registration</h1>
+        <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+            <br>
+            <label for="email"><b>Email</b></label> <br>
+            <input type="email" placeholder="Email" name="email" required> 
+            <br>
+            <div class="gender">
+                <label for="gender"><b>Gender</b></label> <br>
+                <input type="radio" name="gender" value="male" checked> Male
+                <input type="radio" name="gender" value="female"> Female
+                <input type="radio" name="gender" value="others"> Others <br>
+            </div>
+            <label for="pass"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="pass" required>
+            <br>
+            <label for="rpass"><b>Repeat Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="rpass" required>
+            <br>   
+            <button type="submit">Register</button>
+            <span>Already have an <a href="login.html">account?</a></span>
+          </div>
+    </form>
+</body>
+</html>
